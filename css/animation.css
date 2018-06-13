@@ -1,0 +1,10 @@
+
+@-webkit-keyframes mymove {
+    from {top: 0px;opacity:0;}
+    to {top: 200px;opacity:1;}
+}
+
+@keyframes mymove {
+    from {margin-left:-300px;opacity:0;}
+    to {margin-left:0px;opacity:1;}
+}
