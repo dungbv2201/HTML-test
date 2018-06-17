@@ -1,4 +1,4 @@
-*{margin:0px;padding:0px;}
+*{margin:0;padding:0;}
 header #menu{
 	background:url('../images/menu3.jpg')no-repeat center;
 	-webkit-background-size: cover;
@@ -24,7 +24,7 @@ header #menu{
 	height:100%;
 	width:100%;
 
-	top:0px;
+	top:0;
 	margin-top:80px;
 }
 #app-mobi .owl-item{
@@ -48,7 +48,7 @@ header #menu{
 	}
 	header #menu{
 		background:#ea7474;
-		padding-bottom:70px;
+		padding:10px 0;
 	}
 	
 }
@@ -79,7 +79,7 @@ header #menu{
 header .number{
 	position:absolute;
 	top:50%;
-	right:0px;
+	right:0;
 }
 header .number li{
 	height:80px;
@@ -104,7 +104,7 @@ header .number li:hover{
 }
 header #menu .sign-up{
 	height:60px !important;
-	padding:0px 60px;
+	padding:0 60px;
 	/* padding-right:60px; */
 	line-height:60px !important;
 	background:#fff;
@@ -125,8 +125,11 @@ header #search{
 	border-radius:5px;
 	padding-left:30px;
 	padding-right:15px;
-	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12),0 1px 19px 0 rgba(0,0,0,0.12)!important;
-
+	    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.12),0 1px 19px 0 rgba(0,0,0,0.12)!important;*/
+	-moz-box-shadow: 2px 4px 13px #dddcdc;
+	-webkit-box-shadow: 2px 4px 13px #dddcdc;
+	-o-box-shadow: 2px 4px 13px #dddcdc;
+	box-shadow: 2px 4px 13px #dddcdc;
 	box-sizing:border-box;
 }
 header #search .btn{
@@ -190,8 +193,11 @@ header a.active::before{
 }
  #owl-demo .col-xs-12{
  	border-radius:10px;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
-	padding:0px;
+	box-shadow: 1px 4px 9px #dbdbdb;
+	 -moz-box-shadow: 1px 4px 9px #dbdbdb;
+	 -webkit-box-shadow: 1px 4px 9px #dbdbdb;
+	 -o-box-shadow: 1px 4px 9px #dbdbdb;
+	padding:0;
 	margin-top:18px;
 	margin-bottom:18px;
 	
@@ -871,3 +877,7 @@ section .download-left{
  }
  
  }
+.feature-event .btn{
+	box-shadow: 1px 7px 26px #dbdbdb;
+	margin-bottom: 20px;
+}
