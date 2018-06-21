@@ -4,7 +4,6 @@ $(document).ready(function() {
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
-        
 		pagination:false,
         indicators:true,
  
@@ -192,15 +191,15 @@ $(document).ready(function() {
 	})
 });
 $(document).ready(function() {
- 
+
   $("#mobii").owlCarousel({
- 
+
       slideSpeed : 300,
       paginationSpeed : 400,
       itemsDesktop : [1000,1], //5 items between 1000px and 901px
 		itemsDesktopSmall : [900,1], // betweem 900px and 601px
-		itemsTablet: [600,1], 
-      items : 1, 
+		itemsTablet: [600,1],
+      items : 1,
  		responsiveClass: true,
     	responsive: {
         0:{
@@ -219,9 +218,9 @@ $(document).ready(function() {
   });
 })
 $(document).ready(function() {
- 
+
   var owl = $("#download-right");
- 
+
   owl.owlCarousel({
       items : 2, //10 items above 1000px browser width
       itemsDesktop : [1000,5], //5 items between 1000px and 901px
@@ -241,7 +240,7 @@ $(document).ready(function() {
         }
     }
   });
- 
+
   // Custom Navigation Events
   $(".next-app").click(function(){
     $('#download-right').trigger('owl.next');
@@ -323,3 +322,4 @@ $(document).ready(function() {
 	})
  
 });
+//
