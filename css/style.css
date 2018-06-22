@@ -182,7 +182,6 @@ header a.active::before{
     position: absolute;
     top: -30px;
     font-size: 30px;
-    width: 100%;
     left: 46%;
 
 }
@@ -306,8 +305,8 @@ a:hover{
 }
 .sl2-pre{
 	position:absolute;
-	left:12%;
-	margin-top:5%;
+		left:0;
+	margin-top:7%;
 }
 .wrapper #restaurants .losed-now{
 	color:#e79c9e !important;
@@ -323,8 +322,8 @@ a:hover{
 }
 .sl2-next{
 	position:absolute;
-	right:12%;
-	margin-top:5%;
+	right:-2px;
+	margin-top:7%;
 }
 .next-slider-2{
 	background:#fff;
@@ -340,11 +339,11 @@ a:hover{
 		margin-top:30%;
 	}
 	.sl2-pre{
-		left:0px;
+		left:0;
 		margin-top:30%;
 	}
 	.sl3-pre{
-		left:0px !important;
+		left:0;
 		margin-top:30% !important;
 	}
 	.sl3-next{
@@ -374,8 +373,8 @@ a:hover{
 }
 .sl3-pre{
 	position:absolute;
-	left:12%;
-	margin-top:5%;
+		left:0;
+	margin-top:7%;
 }
 .prev-slider-3{
 	position:absolute;
@@ -389,8 +388,8 @@ a:hover{
 }
 .sl3-next{
 	position:absolute;
-	right:12%;
-	margin-top:5%;
+	right:-2px;
+	margin-top:7%;
 }
 .next-slider-3{
 	background:#fff;
@@ -420,8 +419,8 @@ a:hover{
 /* ========================================== event================================== */
 .event-pre{
 	position:absolute;
-	left:12%;
-	margin-top:5%;
+		left:0;
+	margin-top:7%;
 }
 .prev-event{
 	position:absolute;
@@ -435,8 +434,8 @@ a:hover{
 }
 .event-next{
 	position:absolute;
-	right:12%;
-	margin-top:5%;
+	right:-2px;
+	margin-top:7%;
 }
 .next-event{
 	background:#fff;
@@ -448,7 +447,7 @@ a:hover{
 }
 @media(max-width: 475px){
 	.event-pre{
-		left:0px;
+		left:0;
 		margin-top:30%;
 	}
 	.event-next{
@@ -473,8 +472,8 @@ a:hover{
 }
 .movie-pre{
 	position:absolute;
-	left:12%;
-	margin-top:10%;
+		left:0;
+	margin-top:13%;
 }
 .prev-movie{
 	position:absolute;
@@ -488,8 +487,8 @@ a:hover{
 }
 .movie-next{
 	position:absolute;
-	right:12%;
-	margin-top:10%;
+	right:-2px;
+	margin-top:13%;
 }
 .next-movie{
 	background:#fff;
@@ -507,7 +506,7 @@ a:hover{
 	}
 	.movie-pre{
 
-	left:0px;
+		left:0;
 	margin-top:53%;
 }
 }
@@ -554,8 +553,8 @@ a:hover{
 }
 .museum-pre{
 	position:absolute;
-	left:12%;
-	margin-top:5%;
+		left:0;
+	margin-top:7%;
 }
 .prev-museum{
 	position:absolute;
@@ -569,8 +568,8 @@ a:hover{
 }
 .museum-next{
 	position:absolute;
-	right:12%;
-	margin-top:5%;
+	right:-2px;
+	margin-top:7%;
 }
 .next-museum{
 	background:#fff;
@@ -604,8 +603,8 @@ a:hover{
 }
 .bar-pre{
 	position:absolute;
-	left:12%;
-	margin-top:5%;
+		left:0;
+	margin-top:7%;
 }
 .prev-bar{
 	position:absolute;
@@ -619,8 +618,8 @@ a:hover{
 }
 .bar-next{
 	position:absolute;
-	right:12%;
-	margin-top:5%;
+	right:-2px;
+	margin-top:7%;
 }
 .next-bar{
 	background:#fff;
@@ -719,7 +718,6 @@ section .download-left{
 	border-radius:40px;
 	width:100%;
 	height:100%;
-	    margin-left: -30px;
 	box-shadow: 10px 11px 29px #d2d2d4
 }
 .mobi-item{
@@ -727,10 +725,14 @@ section .download-left{
 	padding-bottom:50px;
 }
 #download-right{
+	/*padding-top:50px;*/
+	/*padding-bottom:50px;*/
+	/*margin-left:-35px;*/
+
+}
+.right-padding{
 	padding-top:50px;
 	padding-bottom:50px;
-	margin-left:-35px;
-
 }
 .download-right .ap-item{
 	padding-left:0px !important;
@@ -741,8 +743,8 @@ section .download-left{
 .next-app{
 	    height: 50px;
     position: absolute;
-    top: 50%;
-    right: 7%;
+    top: 45%;
+    right: -17px;
     width: 50px;
     background: #fff;
     border-radius: 50%;
@@ -786,6 +788,12 @@ section .download-left{
 	}
 	#download-right img{
 		height:380px !important;
+	}
+	.dl-right{
+		display: none;
+	}
+	.backgound-position{
+		display:none;
 	}
 }
 @media(max-width:1024px){
@@ -990,4 +998,155 @@ section#movies{
 		right: 2%;
 		margin-top: 6%;
 	}
+}
+@media(min-width:768px){
+	.owl-item{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.owl-item:first-child{
+		padding-left: 0 ;
+	}
+	.owl-item:last-child{
+		padding-right: 0;
+	}
+	.download-right .owl-item{
+		padding-right: 0!important;
+		padding-left: 0 !important;
+	}
+	header .owl-item{
+		padding-right: 0!important;
+		padding-left: 0 !important;
+	}
+}
+#download-right .col-xl-12{
+	margin-right: 40px;
+}
+/*#mobii .owl-wrapper-outer::before{*/
+	/*content:'';*/
+	/*display: block;*/
+	/*width: calc(100% + 30px);*/
+	/*height: calc(100% + 30px);*/
+	/*position: absolute;*/
+	/*z-index: 5;*/
+	/*left:-15px;*/
+	/*top:-15px;*/
+	/*border:15px solid #1f2641;*/
+	/*border-radius:40px;*/
+/*}*/
+/*#mobii .owl-wrapper-outer img{*/
+	/*border-radius: 0!important;*/
+/*}*/
+.Mobi-app{
+	position: absolute;
+	top: 7px;
+	height: 22px;
+	width: 50%;
+	background: #1f2641;
+	z-index: 99;
+	left: 20%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.Mobi-app li:nth-child(1){
+	height: 5px;
+	width: 40%;
+	background: #303a51;
+	margin-top: 8px;
+	margin-left: 25%;
+	border-radius: 2px;
+}
+.Mobi-app li:nth-child(2){
+	height: 7px;
+	width: 7px;
+	background: #303a51;
+	margin-top: 8px;
+	border-radius:50%;
+}
+#download-right .ap-item{
+	margin-right: 20px;
+}
+@media(max-width: 768px){
+	#download-right {
+
+		padding-left: 20px;
+		margin-left:0px;
+	}
+	.next-app{
+		right:-1%;
+		top:45%;
+	}
+	.Mobi-app{
+		left:26%;
+	}
+
+}
+@media(max-width: 1024px) and (min-width: 769px){
+	#download-right {
+
+		margin-left:0px;
+	}
+	.next-app{
+		right:0;
+		top:45%;
+	}
+
+
+}
+
+@media (min-width: 768px)
+{
+	#mobii .owl-item{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+}
+@media(max-width: 475px){
+	.dl-right{
+		display:none;
+	}
+	.dl-left{
+		padding-left:15px !important;
+		padding-right:15px !important;
+	}
+}
+@media(max-width: 768px){
+	.dl-left{
+		padding-left:15px !important;
+		padding-right:15px !important;
+	}
+
+}
+.ap-item{
+	padding-right:0px;
+	padding-left:0px
+}
+@media(min-width: 1024px){
+	.dl-right{
+		background: #fff;position: absolute;top: -49px;right:-130px;
+	}
+}
+@media(min-width: 475px) and (max-width: 768px){
+	.dl-right{
+		display: block !important;
+		background: #fff;
+		padding-top: 100px;
+	}
+	.dl-left>div{
+		padding-right: 15px !important;
+	}
+	.bg-md{
+		max-width: 100% !important;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+.position{
+	position:relative;
+}
+@media (max-width: 475px){
+.owl-item {
+	 padding-right: 0px !important;
+
+}
 }
