@@ -1012,6 +1012,10 @@ section#movies{
 	.Mobi-app{
 		left:29%;
 	}
+	.app-item{
+		padding-left:0px;
+		padding-right:0px;
+	}
 
 }
 @media(max-width: 1024px) and (min-width: 769px){
