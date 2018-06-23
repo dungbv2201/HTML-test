@@ -744,7 +744,7 @@ section .download-left{
 	height: 50px;
 	position: absolute;
 	top: 45%;
-	right: 4%;
+	right: 0;
 	width: 50px;
 	background: #fff;
 	border-radius: 50%;
@@ -814,20 +814,19 @@ section .download-left{
 		margin-bottom:30px !important;
 	}
 	.mobi-border{
-		height:465px;
 		width:250px;
 	}
 
 }
 @media(min-width:1024px){
 
-	.mobi-border{
+	/* .mobi-border{
 		height:650px;
 
-	}
-	.mobi-border img{
+	} */
+	/* .mobi-border img{
 		height:620px;
-	}
+	} */
 
 }
 #app-mobi::before{
@@ -1060,21 +1059,24 @@ section#movies{
 	}
 
 }
-.ap-item{
-	padding-right:0px;
-	padding-left:0px
-}
+
 @media(min-width: 1200px){
 	.dl-right{
-		background: #fff;position: absolute;top: -60px;right:-300px;
+		background: #fff;position: absolute;top: -60px;right:-100px;
 	}
 	.dl-right .owl-item{
 		padding-right: 0 !important;
 		padding-left: 0 !important;
 	}
 	.right-padding{
-		padding-left: 0 !important;
-		padding-right: 30px !important;
+		margin-left:-10px;
+		padding-left:0px !important;
+		padding-right:0px !important;
+		padding-top:60px !important;
+	}
+	.app-item{
+		padding-left:0px !important;
+		padding-right:20px !important;
 	}
 }
 @media(min-width: 475px) and (max-width: 1024px){
@@ -1109,6 +1111,7 @@ section#movies{
 @media(min-width: 1024px){
 	.mobile-right{
 		padding-left: 0!important;padding-right: 20px !important;
+		margin-top:-10px;
 	}
 }
 #mobii{
