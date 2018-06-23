@@ -744,7 +744,7 @@ section .download-left{
 	height: 50px;
 	position: absolute;
 	top: 45%;
-	right: -17px;
+	right: 4%;
 	width: 50px;
 	background: #fff;
 	border-radius: 50%;
@@ -817,11 +817,9 @@ section .download-left{
 		height:465px;
 		width:250px;
 	}
-	.mobi-border img{
-		height:435px !important;
-	}
+
 }
-@media(min-width:1025px){
+@media(min-width:1024px){
 
 	.mobi-border{
 		height:650px;
@@ -949,56 +947,7 @@ section#movies{
 .wrapper .owl-carousel .col-sm-12:hover h5{
 	color:#f07d7e !important;
 }
-@media(min-width:769px) and (max-width:1024px){
-	#restaurants .sl2-pre{
-		left: 2%;
-		margin-top: 6%;
-	}
-	#restaurants .sl2-next {
-		right: 2%;
-		margin-top: 6%;
-	}
-	#cinema .sl3-pre{
-		left: 2%;
-		margin-top: 6%;
-	}
-	#cinema .sl3-next {
-		right: 2%;
-		margin-top: 6%;
-	}
-	#events .event-pre {
-		left: 2%;
-		margin-top: 6%;
-	}
-	#events .event-next {
-		right: 2%;
-		margin-top: 6%;
-	}
-	#movies .movie-pre {
-		left: 2%;
-		margin-top: 12%;
-	}
-	#movies .movie-next {
-		right: 2%;
-		margin-top: 12%;
-	}
-	#museums .museum-pre {
-		left: 2%;
-		margin-top: 6%;
-	}
-	#museums .museum-next {
-		right: 2%;
-		margin-top: 6%;
-	}
-	#bars .bar-pre{
-		left: 2%;
-		margin-top: 6%;
-	}
-	#bars .bar-next{
-		right: 2%;
-		margin-top: 6%;
-	}
-}
+
 @media(min-width:768px){
 	.owl-item{
 		padding-right: 5px;
@@ -1029,7 +978,7 @@ section#movies{
 	width: 50%;
 	background: #1f2641;
 	z-index: 99;
-	left: 20%;
+	left: 24%;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 }
@@ -1058,23 +1007,32 @@ section#movies{
 		margin-left:0px;
 	}
 	.next-app{
-		right:-1%;
+		right:2%;
 		top:45%;
 	}
 	.Mobi-app{
-		left:26%;
+		left:29%;
 	}
 
 }
 @media(max-width: 1024px) and (min-width: 769px){
 	#download-right {
-
 		margin-left:0px;
 	}
 	.next-app{
 		right:0;
 		top:45%;
 	}
+	.dl-left .dl-content{
+		background: #f07c7d;
+		padding-left: 40px;
+		padding-right: 50px !important;
+
+	}
+	.right-padding{
+		background: #fff !important;
+	}
+
 
 
 }
@@ -1097,7 +1055,7 @@ section#movies{
 }
 @media(max-width: 768px){
 	.dl-left{
-		padding-left:15px !important;
+		padding-left:40px !important;
 		padding-right:15px !important;
 	}
 
@@ -1106,12 +1064,20 @@ section#movies{
 	padding-right:0px;
 	padding-left:0px
 }
-@media(min-width: 1024px){
+@media(min-width: 1200px){
 	.dl-right{
-		background: #fff;position: absolute;top: -60px;right:-130px;
+		background: #fff;position: absolute;top: -60px;right:-300px;
+	}
+	.dl-right .owl-item{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.right-padding{
+		padding-left: 0 !important;
+		padding-right: 30px !important;
 	}
 }
-@media(min-width: 475px) and (max-width: 768px){
+@media(min-width: 475px) and (max-width: 1024px){
 	.dl-right{
 		display: block !important;
 		background: #fff;
@@ -1125,13 +1091,27 @@ section#movies{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	.dl-right>.row{
+		display: flex !important;
+		justify-content: center;
+	}
 }
 .position{
 	position:relative;
 }
 @media (max-width: 475px){
 	.owl-item {
-		padding-right: 0px !important;
+		padding-right: 0!important;
 
 	}
+}
+
+@media(min-width: 1024px){
+	.mobile-right{
+		padding-left: 0!important;padding-right: 20px !important;
+	}
+}
+#mobii{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
